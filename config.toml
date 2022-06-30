@@ -1,0 +1,43 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Learning Notes'
+theme = 'archie'
+
+copyright = ""
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+[params]
+	mode = "auto"
+	useCDN = false
+	subtitle = "Storage area for notes on technical stuff that I'm learning..."
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://jilmun.github.io/"
+
+[[params.social]]
+name = "Medium"
+icon = "aperture"
+url = "https://medium.com/human-in-a-machine-world"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "List"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
