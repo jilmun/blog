@@ -7,6 +7,9 @@ copyright = ""
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+
+paginate = 5
+
 [params]
 	mode = "auto"
 	useCDN = false
