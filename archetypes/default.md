@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 description:
 date: {{ .Date }}
-tags: [ce-other, ce-2022]
+tags: [ce-general, ce-professional, ce-bias, ce-other, ce-organized, ce-self, ce-2022]
 draft: true
 ---
 
